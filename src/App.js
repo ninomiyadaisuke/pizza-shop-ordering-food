@@ -1,7 +1,18 @@
+import { createGlobalStyle } from 'styled-components'
+
+const GlobalStyle = createGlobalStyle`
+    body {
+      background-color: blue;
+    }
+`
 
 function App() {
   return (
-    <div>Hello SliceLine</div>
+    <>
+      <GlobalStyle/>
+      <div>Hello SliceLine</div>
+    </>
+    
   );
 }
 
