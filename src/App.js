@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
     body {
       font-family: "Open Sans", sans-serif;
     }
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
       font-family: "Righteous", cursive;
     }
 `
