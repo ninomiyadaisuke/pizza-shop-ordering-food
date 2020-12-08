@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 import { Navbar } from "./Navbar/Navbar"
-
+import { Banner } from "./Banner/Banner"
 
 const GlobalStyle = createGlobalStyle`
     body {
@@ -16,7 +16,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Navbar/>
+      <Navbar />
+      <Banner/>
       <div>Hello SliceLine</div>
     </>
     
