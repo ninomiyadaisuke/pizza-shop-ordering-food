@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Navbar } from "./Navbar/Navbar"
 import { Banner } from "./Banner/Banner"
 import { Menu } from "./Menu/Menu"
@@ -14,7 +14,9 @@ function App() {
   const openFood = useOpenFood()
   const orders = useOrders()
   const auth = useAuthentication()
-  useTitle({...openFood, ...orders})
+
+  useTitle({ ...openFood, ...orders })
+  
   return (
     <>
       <GlobalStyle />
